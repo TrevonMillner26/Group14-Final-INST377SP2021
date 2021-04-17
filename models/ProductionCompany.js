@@ -1,5 +1,5 @@
 export default (sequelize, DataTypes) => {
-    const productionCompany = sequleize.define(
+    const productionCompany = sequelize.define(
         'Production Company', 
         {
             company_id: {
